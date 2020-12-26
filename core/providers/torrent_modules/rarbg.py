@@ -107,7 +107,7 @@ def get_rss():
             now = datetime.datetime.now()
 
     try:
-        url = '{}/pubapi_v2.php?token={}&mode=list&category=movies&format=json_extended&app_id=Watcher'.format(host, _token())
+        url = '{}/pubapi_v2.php?token={}&mode=list&category==14;48;17;44;45;47;50;51;52;42;46;54&format=json_extended&app_id=Watcher'.format(host, _token())
         timeout = datetime.datetime.now() + datetime.timedelta(seconds=2)
 
         if proxy_enabled and core.proxy.whitelist(host) is True:
